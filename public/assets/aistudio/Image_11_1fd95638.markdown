@@ -1,0 +1,244 @@
+---
+name: Precision Metric
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#444654'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#747685'
+  outline-variant: '#c4c5d6'
+  surface-tint: '#2e52d0'
+  primary: '#0e3cbc'
+  on-primary: '#ffffff'
+  primary-container: '#3457d5'
+  on-primary-container: '#d9deff'
+  inverse-primary: '#b8c4ff'
+  secondary: '#525e7d'
+  on-secondary: '#ffffff'
+  secondary-container: '#cdd9fe'
+  on-secondary-container: '#525f7e'
+  tertiary: '#003bc0'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#2a55de'
+  on-tertiary-container: '#d8ddff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dde1ff'
+  primary-fixed-dim: '#b8c4ff'
+  on-primary-fixed: '#001454'
+  on-primary-fixed-variant: '#0337b8'
+  secondary-fixed: '#d9e2ff'
+  secondary-fixed-dim: '#b9c6ea'
+  on-secondary-fixed: '#0d1b36'
+  on-secondary-fixed-variant: '#3a4664'
+  tertiary-fixed: '#dde1ff'
+  tertiary-fixed-dim: '#b7c4ff'
+  on-tertiary-fixed: '#001452'
+  on-tertiary-fixed-variant: '#0038b7'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  metric-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.03em
+  metric-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 30px
+    letterSpacing: -0.02em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-caps:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.05em
+  code-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: -0.01em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-2xs: 0.125rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2rem
+  space-3xl: 3rem
+---
+
+## Brand & Style
+The design system establishes a high-performance, developer-refined B2B recurring revenue and subscription operating environment. Synthesizing the technical rigor of Linear, the optical clarity of Stripe, and the modernist utility of Vercel, the system communicates uncompromising accuracy, structural calm, and velocity. 
+
+Targeted at finance heads, rev-ops leads, and engineering executives managing mission-critical cash flows, the aesthetic rejects superficial decoration in favor of high-information density, microscopic layout precision, and instantaneous legibility. The UI feels like an enterprise financial instrument: calibrated, durable, and effortless under heavy analytical loads.
+
+## Colors
+The color architecture relies on a crisp light-mode baseline constructed over a cool-slate foundation (`#F8FAFC`). High-energy royal blue (`#3457D5`) drives primary interactive commitments and key states, supported by an ambient blue-glow accent (`#4F75FE`) for elevated interactions and deep navy (`#14213D`) for authoritative structural anchors.
+
+### System Palette Implementation
+- **Base Canvas:** `#F8FAFC` provides the foundational plane, preserving true white (`#FFFFFF`) exclusively for elevated cards, active cells, and overlays.
+- **Divider & Border Rules:** Strict structural hairline strokes use `#E2E8F0` for resting boundaries and `#CBD5E1` on interactive hover.
+- **Text & Content Tiers:** Text values prioritize readability: `#0F172A` for primary headlines, critical telemetry, and currency sums; `#64748B` for secondary labels, table headers, and metadata; `#94A3B8` for tertiary placeholders.
+- **State Signals:**
+  - Active / Settled: `#16A34A` text on `#ECFDF5` container with `#BBF7D0` stroke.
+  - Pending / Triaged: `#D97706` text on `#FFFBEB` container with `#FDE68A` stroke.
+  - Overdue / Failed: `#DC2626` text on `#FEF2F2` container with `#FECACA` stroke.
+  - System Neutral / Informational: `#4F46E5` text on `#EEF2FF` container with `#C7D2FE` stroke.
+
+## Typography
+The system employs an authoritative dual-font pairing designed for analytical software:
+- **Display & Headings:** `Plus Jakarta Sans` delivers geometric stability, refined round terminals, and high impact for KPIs, board-level summaries, and structural titles.
+- **Data & Micro-Interfaces:** `Inter` handles all dense reading, forms, operational tables, and data streams, maximizing horizontal scanning efficiency with tabular figures (`tnum`, `cv02`, `cv03`, `cv04` enabled).
+
+### Number & Currency Standards
+All financial records, billing sums, and transaction IDs must enforce monospaced numerals (`font-variant-numeric: tabular-nums`). For Indian Rupee formatting (`₹`), maintain standard horizontal baseline alignment directly adjacent to the integer, omitting whitespace between symbol and value (e.g., `₹12,48,200.00`).
+
+## Layout & Spacing
+The layout follows a fluid-hybrid architecture framed by fixed structural rails. The canvas is partitioned into three discrete horizontal zones:
+
+1. **Fixed Navigation Rail:** 256px rigid desktop sidebar (collapsing into an off-canvas drawer under 1024px).
+2. **Sticky Operational Utility Bar:** Fixed 60px height directly spanning viewport top from rail edge.
+3. **Workspace Canvas:** Fluid container dynamically spanning full remaining width, scaling content within a maximum constraint of `1600px` to prevent excessive line lengths on ultra-wide screens.
+
+### Grid & Breakpoint Logic
+- **Desktop (≥ 1280px):** 12-column grid, 24px gutters (`gutter`), 32px canvas margins (`margin`). Metric cards render in 4-column clusters; transactional tables leverage full 12-column span.
+- **Tablet (768px – 1279px):** 8-column grid, 16px gutters, 24px margins. Navigation converts into an icon rail (64px) or sliding sheet. Metric clusters reflow to 2x2 grids.
+- **Mobile (< 768px):** 4-column grid, 12px gutters (`gutter-mobile`), 16px margins (`margin-mobile`). Complex data tables activate horizontal kinetic scroll with frozen identity columns.
+
+## Elevation & Depth
+Elevation is maintained using restrained surface contrast and ambient lighting rather than heavy drop shadows. The system uses a tactile stacking model:
+
+- **Level 0 (Base Canvas):** Flat `#F8FAFC`, non-elevated.
+- **Level 1 (Card / Static Cell):** `#FFFFFF` surface enclosed by a fine `#E2E8F0` border and stabilized by a crisp dual shadow:
+  `box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.03)`
+- **Level 2 (Interactive Hover / Lifted Elements):** Slightly elevated card state during hover or reorder:
+  `box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04)` with border transitioning to `#CBD5E1`.
+- **Level 3 (Dropdowns / Menus / Command Palette):** Pure white background with higher spatial separation:
+  `box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.03)`, encased in `#E2E8F0`.
+- **Level 4 (Modals / Slide Drawers):** High-priority focus layers isolated with an ambient backdrop overlay (`rgba(15, 23, 42, 0.4)` with `backdrop-filter: blur(4px)`) and directional shadow:
+  `box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.2)`.
+
+## Shapes
+The design system employs a refined `Soft (1)` geometric curvature profile across all functional tiers, delivering a balanced feel that is neither starkly rectangular nor overly rounded:
+
+- **Base Radius (`0.375rem` / `6px`):** Standard interactive controls including inputs, buttons, filter chips, dropdown items, and table cell tags.
+- **Card Radius (`0.5rem` / `8px`):** Dashboard tiles, metric cards, dialog boxes, and surface groupings.
+- **Overlay Radius (`0.75rem` / `12px`):** Global command palettes (`⌘K`), high-elevation modal dialogues, and root settings containers.
+- **Pill Radius (`9999px`):** Reserved exclusively for semantic status pills, count badges, live sync dots, and user avatars.
+
+## Components
+
+### Buttons
+- **Primary:** Solid `#3457D5` background, `#FFFFFF` text, `0.375rem` radius, 1px transparent border. Hover shifts to `#2A48B8` with an ambient glow (`box-shadow: 0 0 0 3px rgba(79, 117, 254, 0.15)`). Active compresses to `#1E3A8A`.
+- **Secondary / Outline:** `#FFFFFF` background, `#0F172A` text, 1px solid `#E2E8F0`. Hover uses `#F8FAFC` background with border `#CBD5E1`.
+- **Ghost:** Transparent background, `#64748B` text. Hover yields `#F1F5F9` background and `#0F172A` text.
+- **Danger:** Pure `#EF4444` background with white text, or ghost outline with `#DC2626` text and hover fill `#FEF2F2`.
+
+### Sidebar Navigation (256px Fixed)
+- Resting links use `#64748B` text with an internal `8px` horizontal pad.
+- **Active State:** Background is tinted `#EEF2FF`, text shifts to bold `#3457D5`, and the left border displays a crisp `3px` solid `#3457D5` indicator.
+- Category section labels render in `label-caps` typography (`#94A3B8`).
+- Counter badges feature an embedded pill: `#F1F5F9` background with `#475569` text.
+
+### Top Sticky Operational Header
+- Fixed 60px height with `#FFFFFF` background, bottom border 1px `#E2E8F0`, and backdrop-filter blur support.
+- **Global Command Search (`⌘K`):** Width 280px expandable to 420px on focus. Background `#F8FAFC`, border 1px solid `#E2E8F0`, interior placeholder `#94A3B8`. Includes an inline trailing `KBD` tag (`#FFFFFF`, border `#CBD5E1`, text `#64748B`).
+- **Quick Action Trigger:** Compact primary button (`+ New`) paired with notification bell containing an active red unread ping dot (`#EF4444`, 6px).
+
+### Data Tables
+- Header row renders at 40px height with `#F8FAFC` background, uppercase 11px font (`label-caps`), text `#64748B`, and bottom border 1px solid `#E2E8F0`. Sortable columns include subtle up/down directional carats.
+- Body rows feature 52px height, true white background, and a hover background of `#F8FAFC`.
+- Cells enforce horizontal baseline alignment, right-aligning numerical and currency values with tabular figures.
+- Bottom pagination controls feature page range indicators, step chevrons, and rows-per-page dropdowns.
+
+### Metric Cards
+- Surface: `#FFFFFF` card, 1px `#E2E8F0` border, `p-5` padding.
+- Top section: 13px label (`#64748B`) paired with a mini action icon.
+- Mid section: Large KPI metric formatted in `metric-xl` (`#0F172A`).
+- Bottom section: Positive (`+12.8%`) or negative delta tag paired with a 48px inline vector sparkline graph with gradient stroke fills.
+
+### Status Indicators & Chips
+- Status badges use pill radii with `px-2.5 py-0.5` padding and a 12px medium font weight.
+- Always constructed with a light background fill, dark high-contrast matching text, and a tinted 1px perimeter border.

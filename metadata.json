@@ -1,0 +1,6 @@
+{
+  "name": "Precision Metric",
+  "description": "High-performance, developer-refined B2B recurring revenue and subscription operating environment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
